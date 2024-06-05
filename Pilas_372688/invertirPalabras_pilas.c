@@ -14,7 +14,7 @@ int main() {
     Nodo *pila = NULL;
     char palabra[100];
     
-    printf("Ingrese una palabra porfa: ");
+    printf("Ingrese una palabra: ");
     gets(palabra);
     palabra[strcspn(palabra,"\n")] = '\0';
 
